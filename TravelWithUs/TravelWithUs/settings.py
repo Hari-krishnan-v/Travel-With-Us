@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'food',
     'review',
     'transportation',
-    'trip',
+    'trips',
     'users',
 ]
 

@@ -4,25 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TravelWithUs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="this is the starting folder structure of the project">
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/dashboard/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/food/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/review/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/transportation/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/trips/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/users/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/food/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/food/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/food/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/review/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/review/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/review/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/review/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hari-krishnan-v&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hari-krishnan-v/Travel-With-Us.git&quot;,
+    &quot;accountId&quot;: &quot;6cbaee67-26db-451c-ac59-48348c99e094&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pwNr36i2EPZAeudnMlBKRpXkZo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,8 +71,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -51,6 +93,27 @@
       <option name="presentableId" value="Default" />
       <updated>1733673372420</updated>
     </task>
+    <task id="LOCAL-00001" summary="this is the starting folder structure of the project">
+      <option name="closed" value="true" />
+      <created>1733674296347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733674296347</updated>
+    </task>
+    <task id="LOCAL-00002" summary="this is the starting folder structure of the project">
+      <option name="closed" value="true" />
+      <created>1733674361776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733674361776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is the starting folder structure of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is the starting folder structure of the project" />
   </component>
 </project>
