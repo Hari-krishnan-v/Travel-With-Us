@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="this is the starting folder structure of the project">
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/dashboard/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/food/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/review/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/transportation/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/trips/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/users/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/users/urls.py" afterDir="false" />
+    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="models for the project created">
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/trips/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/food/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/food/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/food/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/review/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/review/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/review/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/review/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -69,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,11 +85,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733674361776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="models for the project created">
+      <option name="closed" value="true" />
+      <created>1733695651412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733695651412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is the starting folder structure of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is the starting folder structure of the project" />
+    <MESSAGE value="models for the project created" />
+    <option name="LAST_COMMIT_MESSAGE" value="models for the project created" />
   </component>
 </project>
