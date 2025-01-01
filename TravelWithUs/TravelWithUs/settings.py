@@ -34,7 +34,8 @@ ALLOWED_HOSTS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # For local React development
     "http://192.168.1.2:3000",  # Update with your local machine's IP
-    "exp://192.168.1.2:8081",  # If you're using Expo
+    "exp://192.168.1.2:8081",
+    # If you're using Expo
 ]
 
 # Application definition
@@ -54,7 +55,9 @@ INSTALLED_APPS = [
     'review',
     'transportation',
     'trips',
+    'location',
     'corsheaders',
+    'import_export',
     'rest_framework',
     'rest_framework.authtoken',
 ]

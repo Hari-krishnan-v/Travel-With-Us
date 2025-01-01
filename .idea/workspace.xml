@@ -4,26 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="frontend added">
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/transportation/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TravelWithUs/users/serializers.py" afterDir="false" />
+    <list default="true" id="0c796412-b369-4efa-bd15-b433c120ad30" name="Changes" comment="bus,train api generated">
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/management/commands/delete_tourist_attractions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/management/commands/import_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/attraction/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/location/management/commands/import_locations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/location/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/location/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelWithUs/location/worldcities.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/TravelWithUs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/accommodation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/accommodation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/attraction/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/attraction/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TravelWithUs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/transportation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/transportation/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/trips/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/trips/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TravelWithUs/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TravelWithUs/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +71,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.ai.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harik\PycharmProjects\TravelWithUs\TravelWithUs\location" />
+      <recent name="C:\Users\harik\PycharmProjects\TravelWithUs\TravelWithUs\attraction" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -119,13 +132,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733928844646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bus,train api generated">
+      <option name="closed" value="true" />
+      <created>1735325974475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735325974475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is the starting folder structure of the project" />
     <MESSAGE value="models for the project created" />
     <MESSAGE value="frontend added" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend added" />
+    <MESSAGE value="bus,train api generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="bus,train api generated" />
   </component>
 </project>

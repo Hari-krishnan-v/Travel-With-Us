@@ -19,4 +19,5 @@ urlpatterns = [
     path('bus-list/', include(router.urls)),
     path('register-train/', TrainRegisterView.as_view(), name='register-train'),
     path('train-list/', include(router.urls)),
+
 ]

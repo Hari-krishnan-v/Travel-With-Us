@@ -6,16 +6,7 @@ from .models import Flight, Bus, Train
 class FlightSerializer(serializers.ModelSerializer):
     class Meta:
         model = Flight
-        fields = [
-            'airline',
-            'flight_number',
-            'departure_airport',
-            'arrival_airport',
-            'departure_time',
-            'arrival_time',
-            'layover_time'
-        ]
-
+        fields = '__all__'
     def validate_transportation(self, value):
         """
         Ensures that a valid transportation object exists.

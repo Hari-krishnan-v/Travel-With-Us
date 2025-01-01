@@ -11,3 +11,11 @@ class Accommodation(models.Model):
     check_in_date = models.DateField()
     check_out_date = models.DateField()
 
+class Hotel(models.Model):
+    hotelName = models.CharField(max_length=200)
+    contactNumber = models.CharField(max_length=20)
+    hotelImageUrl = models.URLField(max_length=400)
+    location = models.CharField(max_length=200)
+    rating = models.IntegerField()
+    roomType = models.CharField(max_length=100)
+    pricePerNight = models.DecimalField(max_digits=10, decimal_places=2)

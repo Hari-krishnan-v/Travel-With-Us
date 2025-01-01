@@ -26,6 +26,12 @@ from rest_framework_simplejwt.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('transportation/', include('transportation.urls')),
+    path('accommodation/', include('accommodation.urls')),
+    path('location/', include('location.urls')),
+    # path('budget/', include('budget.urls')),
+    # path('itinerary/', include('itinerary.urls')),
+    # path('schedule/', include('schedule.urls')),
+    # path('payment/', include('payment.urls')),
     # path('attraction/', include('attraction.urls')),
     # path('food/', include('food.urls')),
     # path('dashboard/', include('dashboard.urls')),
